@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ba778b7.chunk.css",
+    "main.js": "/static/js/main.67fb4eb0.chunk.js",
+    "main.js.map": "/static/js/main.67fb4eb0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bf481617.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bf481617.js.map",
+    "static/css/2.e23e5acc.chunk.css": "/static/css/2.e23e5acc.chunk.css",
+    "static/js/2.1de53ffa.chunk.js": "/static/js/2.1de53ffa.chunk.js",
+    "static/js/2.1de53ffa.chunk.js.map": "/static/js/2.1de53ffa.chunk.js.map",
+    "static/js/3.2bf87649.chunk.js": "/static/js/3.2bf87649.chunk.js",
+    "static/js/3.2bf87649.chunk.js.map": "/static/js/3.2bf87649.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.e23e5acc.chunk.css.map": "/static/css/2.e23e5acc.chunk.css.map",
+    "static/css/main.1ba778b7.chunk.css.map": "/static/css/main.1ba778b7.chunk.css.map",
+    "static/js/2.1de53ffa.chunk.js.LICENSE.txt": "/static/js/2.1de53ffa.chunk.js.LICENSE.txt",
+    "static/media/bogtools.62d1cb89.svg": "/static/media/bogtools.62d1cb89.svg",
+    "static/media/bscscan.7d356d7a.svg": "/static/media/bscscan.7d356d7a.svg",
+    "static/media/logo.e9847812.svg": "/static/media/logo.e9847812.svg",
+    "static/media/pancakeswap.430c0408.svg": "/static/media/pancakeswap.430c0408.svg",
+    "static/media/index.css": "/static/media/pt-mono-latin-ext-400-normal.243166aa.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf481617.js",
+    "static/css/2.e23e5acc.chunk.css",
+    "static/js/2.1de53ffa.chunk.js",
+    "static/css/main.1ba778b7.chunk.css",
+    "static/js/main.67fb4eb0.chunk.js"
+  ]
+}

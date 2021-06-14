@@ -8,7 +8,7 @@ import { CoinList } from "../components/CoinList";
 export function LaunchPage() {
   return (
     <Container className="mt-5 pt-5">
-      {/* <h1 className="display-4 text-capitalize text-white mt-5 pt-5 mb-5">
+      <h1 className="display-4 text-capitalize text-white mt-5 pt-5 mb-5">
         <Typewriter string="Launch your coin into orbit."></Typewriter>
       </h1>
       <h2 hidden>
@@ -32,7 +32,7 @@ export function LaunchPage() {
             Get listed today
           </Button>
         </Col>
-      </Row> */}
+      </Row>
       <Row className="mt-5 pt-5">
         <Col lg={{ span: 10, offset: 1 }}>
           <CoinList />

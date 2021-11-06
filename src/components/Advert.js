@@ -1,7 +1,6 @@
 import { Card } from "react-bootstrap";
 
 export function Advert({ ad }) {
-  console.log(ad)
   return (
     <a href={ad.url}>
       <Card className="shadow" bg="transparent">

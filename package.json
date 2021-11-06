@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@apollo/client": "^3.3.19",
     "@fontsource/pt-mono": "^4.4.5",
     "@hookform/error-message": "^2.0.0",
     "@styled-icons/boxicons-logos": "^10.34.0",
@@ -13,7 +12,6 @@
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "4.6.0",
     "ga-4-react": "^0.1.281",
-    "graphql": "^15.5.0",
     "moment": "^2.29.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",

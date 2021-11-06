@@ -5,23 +5,11 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './initializers'
-import {
-  ApolloClient,
-  InMemoryCache,
-  ApolloProvider,
-} from "@apollo/client";
 import "@fontsource/pt-mono";
-
-const client = new ApolloClient({
-  uri: process.env.REACT_APP_GRAPHCMS_ENDPOINT,
-  cache: new InMemoryCache(),
-});
 
 ReactDOM.render(
   <React.StrictMode>
-    <ApolloProvider client={client}>
-      <App />
-    </ApolloProvider>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

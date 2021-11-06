@@ -5,9 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #f5f8fa !important; */
-  background-image: -webkit-linear-gradient(left top, #6d327c, #485DA6, #00a1ba, #00BF98, #36C486);
-  height: 100vh;
+  background-color: #FCFCFC !important;
 }
 
 code {
@@ -15,21 +13,6 @@ code {
     monospace;
 }
 
-.opacity-0 {
-  opacity:0!important;
-}
-.opacity-1 {
-  opacity:0.2!important;
-}
-.opacity-2 {
-  opacity:0.4!important;
-}
-.opacity-3 {
-  opacity:0.6!important;
-}
-.opacity-4 {
-  opacity:.8!important;
-}
-.opacity-5 {
-  opacity:1!important;
+.card {
+  border-radius: 16px !important;
 }

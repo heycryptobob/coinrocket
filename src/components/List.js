@@ -4,15 +4,12 @@ function getTitle(type) {
   switch (type) {
     case "trending":
       return "Trending"
-      break;
     case "recently_launched":
       return "Recently Launched"
-      break;
     case "launching_soon":
       return "Launching Soon"
-      break;
     default:
-      break;
+      return "Unknown Type"
   }
 }
 

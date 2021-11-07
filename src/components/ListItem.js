@@ -41,7 +41,7 @@ export function ListItem({ item, nb, type }) {
         { type === 'launching_soon' ? <></> :
           <ChartButton href={`https://poocoin.app/tokens/${item.address}`} target="_blank" variant="success" size="sm" className="mr-1"><LineChart size={16}/></ChartButton>
         }
-        <TelegramButton href={`${item.telegram_url}?text=/TO_THE_MOON`} target="_blank" variant="success" size="sm"><Telegram size={16}/></TelegramButton>
+        <TelegramButton href={item.telegram_url} target="_blank" variant="success" size="sm"><Telegram size={16}/></TelegramButton>
       </div>
     </ListGroup.Item>
   )

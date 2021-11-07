@@ -1,7 +1,8 @@
 export const adverts = [
   {
     name: "Axienomics",
-    url: "https://poocoin.app/tokens/0x763aca17f03c221d16ba9191a66f75b78a403bcb",
+    chart_url: "https://poocoin.app/tokens/0x763aca17f03c221d16ba9191a66f75b78a403bcb",
+    // telegram_url: 
     image_url: "https://i.ibb.co/sKWMmcn/axienomics.png"
   },
   {

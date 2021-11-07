@@ -1,7 +1,8 @@
-import { Image, ListGroup, Badge, Button } from "react-bootstrap"
+import { Image, ListGroup, Button, OverlayTrigger, Tooltip } from "react-bootstrap"
 import styled from 'styled-components'
 import { Telegram } from '@styled-icons/boxicons-logos'
-import { LineChart } from '@styled-icons/boxicons-regular/LineChart'
+import { LineChart } from '@styled-icons/boxicons-regular'
+import { CheckCircle } from '@styled-icons/boxicons-solid'
 
 const ChartButton = styled(Button)`
   line-height: 1;
@@ -27,15 +28,29 @@ const TelegramButton = styled(Button)`
   }
 `
 
+function TooltipBadge({ text, badge }) {
+
+  const renderTooltip = (props) => (
+    <Tooltip {...props}>
+      {text}
+    </Tooltip>
+  )
+
+  return (
+    <OverlayTrigger placement="top" overlay={renderTooltip(text)}>{badge}</OverlayTrigger>
+  )
+}
+
 export function ListItem({ item, nb, type }) {
   return (
     <ListGroup.Item as="li" style={{ fontSize: '12px' }} className="border-0 px-0 d-flex justify-content-between align-items-center">
       <div className="d-flex align-items-center">
-        <span className="text-muted mr-3">{nb+1}</span>
-        <Image src={item.logo_url} width="24" height="24" alt={item.name} roundedCircle/>
-        <strong className="ml-2">{item.name}</strong>
-        <span className="text-muted ml-2">{item.symbol}</span>
-        { item.kyc ? <Badge pill variant="success" className="ml-2">KYC</Badge> : <></>}
+        <span className="text-muted mr-2">{nb+1}</span>
+        <Image src={item.logo_url} width="18" height="18" alt={item.name} roundedCircle/>
+        <strong className="ml-1">{item.name}</strong>
+        <span className="text-muted ml-1">{item.symbol}</span>
+        { item.kyc ? <TooltipBadge text="KYC" badge={<CheckCircle className="ml-1 text-success" size={16} />} /> : <></> }
+        { item.audit ? <TooltipBadge text="Audit" badge={<CheckCircle className="ml-1 text-info" size={16} />} /> : <></> }
       </div>
       <div>
         { type === 'launching_soon' ? <></> :

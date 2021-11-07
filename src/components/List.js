@@ -1,17 +1,9 @@
 import { Card, ListGroup, Collapse } from "react-bootstrap";
-import { data } from "../data/lists";
+import { data } from "../data/list";
 import { ListItem } from "./ListItem";
 import { UpArrowCircle, DownArrowCircle } from "@styled-icons/boxicons-regular";
 import styled from "styled-components";
 import { useState } from "react";
-
-// const trending = data.filter((item) => item.hasOwnProperty('categories') && item.categories.hasOwnProperty('trending')).sort((a, b) => a.categories.trending > b.categories.trending ? 1 : -1)
-// const recently_launched = data.filter((item) => item.hasOwnProperty('categories') && item.categories.hasOwnProperty('recently_launched'))
-// const launching_soon = data.filter((item) => item.hasOwnProperty('categories') && item.categories.hasOwnProperty('launching_soon'))
-
-// console.log(trending)
-// console.log(recently_launched)
-// console.log(launching_soon)
 
 function getTitle(type) {
   switch (type) {
@@ -77,7 +69,6 @@ function Collapsable({ array, type }) {
 
 export function List({ type }) {
   
-
   const array = filteredSort(data, type);
 
   return (

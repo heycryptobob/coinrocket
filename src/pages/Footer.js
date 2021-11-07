@@ -12,8 +12,8 @@ const CustomItem = styled.li`
 
 export function Footer() {
   return (
-    <Row className="bg-white my-5">
-      <Container className="my-5">
+    <Row className="bg-white p-5">
+      <Container className="py-5">
         <Row>
           <Col>
             <h6><strong>Support</strong></h6>

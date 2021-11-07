@@ -9,13 +9,13 @@ export function HomePage() {
   return (
     <>
       <Container>
-        <Row className="mt-5">
-          {adverts.map((ad, id) => <Col key={id}><Advert ad={ad} /></Col> )} 
+        <Row className="mt-2">
+          {adverts.map((ad, id) => <Col sm={6} md={3} key={id} className="mt-3"><Advert ad={ad} /></Col> )} 
         </Row>
-        <Row className="mt-5">
-          <Col><List type="trending" /></Col>
-          <Col><List type="recently_launched" /></Col>
-          <Col><List type="launching_soon" /></Col>
+        <Row className="mt-2">
+          <Col className="mt-3" sm={12} lg={4}><List type="trending" /></Col>
+          <Col className="mt-3" sm={12} lg={4}><List type="recently_launched" /></Col>
+          <Col className="mt-3" sm={12} lg={4}><List type="launching_soon" /></Col>
         </Row>
       </Container>
       <Social />

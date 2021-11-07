@@ -30,7 +30,7 @@ const TelegramLink = styled.a`
 export function Social() {
   return (
     <SocialRow className="p-5 mt-5">
-      <Container className="p-5">
+      <Container className="py-5">
         <Row>
           <Col>
             <Heading>Be the first to know about <HeadingBold>new listings</HeadingBold></Heading>

@@ -96,5 +96,29 @@ export const data = [
     kyc: false,
     audit: false,
     telegram_url: "https://t.me/hexheliumx24"
-  }
+  },
+  {
+    logo_url: "https://i.ibb.co/QP9wFvp/photo-2021-11-08-00-12-04.jpg",
+    name: "Shibanomics",
+    symbol: "SHIBIN",
+    address: "0xe2cbf8572eab769311a8c562b00a14ca55eaa0ea",
+    categories: {
+      trending: 5
+    },
+    kyc: false,
+    audit: true,
+    telegram_url: "https://t.me/shibanomics",
+  },
+  {
+    logo_url: "https://i.ibb.co/MfRnvkm/photo-2021-11-08-00-16-03.jpg",
+    name: "Evergreen",
+    symbol: "EGT",
+    address: "0xa865c6cc3a6164c3a0188efeed6f32aba134693c",
+    categories: {
+      trending: 6
+    },
+    kyc: false,
+    audit: true,
+    telegram_url: "https://t.me/evergreentokengroup",
+  },
 ]

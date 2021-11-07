@@ -121,4 +121,17 @@ export const data = [
     audit: true,
     telegram_url: "https://t.me/evergreentokengroup",
   },
+  {
+    logo_url: "https://i.ibb.co/84fRZmW/photo-2021-11-08-00-44-31.jpg",
+    name: "SparkLab",
+    symbol: "Spark",
+    address: "0x683b383e9d6cc523f4c9764dacebb5752892fc53",
+    categories: {
+      trending: 7,
+      recently_launched: 3,     
+    },
+    kyc: false,
+    audit: true,
+    telegram_url: "https://t.me/SparkLabOfficialChannel",
+  },
 ]

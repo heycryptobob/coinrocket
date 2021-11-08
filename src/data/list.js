@@ -43,7 +43,7 @@ export const data = [
     address: "0xe9eaca4452e111493372ee3d6c9c37f660bd1784",
     categories: {
       trending: 2,
-      recently_launched: 2,
+      recently_launched: 6,
     },
     kyc: true,
     audit: true,
@@ -92,7 +92,7 @@ export const data = [
     symbol: "HEX",
     address: "",
     categories: {
-      launching_soon: 2
+      launching_soon: 5
     },
     kyc: false,
     audit: false,
@@ -129,7 +129,7 @@ export const data = [
     address: "0x683b383e9d6cc523f4c9764dacebb5752892fc53",
     categories: {
       trending: 7,
-      recently_launched: 3,     
+      recently_launched: 4,     
     },
     kyc: false,
     audit: true,
@@ -146,5 +146,17 @@ export const data = [
     kyc: false,
     audit: false,
     telegram_url: "https://t.me/FlipperToken"
+  },
+  {
+    logo_url: "https://i.ibb.co/7nm2Bgy/photo-2021-11-08-15-48-18.jpg",
+    name: "DodgeTheFloki",
+    symbol: "DTF",
+    address: "0x9680c8cea945816dc0c0d3ea047925181b6bc06b",
+    categories: {
+      recently_launched: 1
+    },
+    kyc: false,
+    audit: false,
+    telegram_url: "https://t.me/Dodgetheflokiofficial"
   },
 ]

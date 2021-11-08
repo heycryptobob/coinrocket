@@ -76,7 +76,8 @@ export const data = [
     categories: {
       launching_soon: 1
     },
-    kyc: true,
+    kyc: false,
+    audit: false,
     telegram_url: "https://t.me/SoccerInfinity",
     promotion: {
       image_url: "https://i.ibb.co/VMfqDyv/soccer-infinity.png",
@@ -133,5 +134,17 @@ export const data = [
     kyc: false,
     audit: true,
     telegram_url: "https://t.me/SparkLabOfficialChannel",
+  },
+  {
+    logo_url: "https://i.ibb.co/ctYRDQG/photo-2021-11-08-14-24-20.jpg",
+    name: "Flipper Token",
+    symbol: "FLIPPER",
+    address: "",
+    categories: {
+      launching_soon: 3
+    },
+    kyc: false,
+    audit: false,
+    telegram_url: "https://t.me/FlipperToken"
   },
 ]

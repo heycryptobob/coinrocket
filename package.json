@@ -13,6 +13,8 @@
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "4.6.0",
     "ga-4-react": "^0.1.281",
+    "graphql": "^16.0.1",
+    "graphql-request": "^3.6.1",
     "moment": "^2.29.1",
     "node-sass": "^6.0.1",
     "react": "^17.0.2",

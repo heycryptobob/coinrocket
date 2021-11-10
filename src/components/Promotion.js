@@ -9,10 +9,10 @@ const Link = styled.a`
 
 export function Promotion({ promotion }) {
   return (
-    <Link href={promotion.target_url} target="_blank" rel="noreferrer">
+    <Link href={promotion.target} target="_blank" rel="noreferrer">
       <Card bg="transparent" className="border-0">
         <Card.Img
-          src={promotion.image_url}
+          src={promotion.image.url}
           alt={promotion.title}
           className="shadowed"
         />

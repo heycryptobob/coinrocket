@@ -46,7 +46,7 @@ export function ListItem({ item, nb, type }) {
     <ListGroup.Item as="li" style={{ fontSize: '12px' }} className="border-0 px-0 d-flex justify-content-between align-items-center">
       <div className="d-flex align-items-center">
         <span className="text-muted mr-2">{nb+1}</span>
-        <Image src={item.logo_url} width="18" height="18" alt={item.name} roundedCircle/>
+        <Image src={item.image.url} width="18" height="18" alt={item.name} roundedCircle/>
         <strong className="ml-1">{item.name}</strong>
         <span className="text-muted ml-1">{item.symbol}</span>
         { item.kyc ? <TooltipBadge text="KYC" badge={<CheckCircle className="ml-1 text-success" size={16} />} /> : <></> }
@@ -56,7 +56,7 @@ export function ListItem({ item, nb, type }) {
         { type === 'launching_soon' ? <></> :
           <ChartButton href={`https://poocoin.app/tokens/${item.address}`} target="_blank" variant="success" size="sm" className="mr-1"><LineChart size={16}/></ChartButton>
         }
-        <TelegramButton href={item.telegram_url} target="_blank" variant="success" size="sm"><Telegram size={16}/></TelegramButton>
+        <TelegramButton href={item.telegram} target="_blank" variant="success" size="sm"><Telegram size={16}/></TelegramButton>
       </div>
     </ListGroup.Item>
   )

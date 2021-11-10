@@ -10,7 +10,7 @@ const Heading = styled.h2`
   font-weight: 300;
 `
 
-const HeadingBold = styled.h2`
+const HeadingBold = styled.span`
   font-weight: 600;
 `
 
@@ -36,10 +36,14 @@ export function Social() {
             <Heading>Be the first to know about <HeadingBold>new listings</HeadingBold></Heading>
             <LeadText className="text-muted">Announcements on Telegram.</LeadText>
             <div className="mt-4">
-              <TelegramLink href="https://t.me/CoinRocketChannel" target="_blank" className="d-flex align-items-center">
+              <TelegramLink href="https://t.me/coinrocketapp" target="_blank" className="d-flex align-items-center">
                 <Telegram size={24} />
-                <span className="ml-2">CoinRocketChannel</span>
+                <span className="ml-2">coinrocketapp</span>
               </TelegramLink>
+              {/* <TelegramLink href="https://t.me/coinrocketchat" target="_blank" className="d-flex align-items-center mt-2">
+                <Telegram size={24} />
+                <span className="ml-2">coinrocketchat</span>
+              </TelegramLink> */}
             </div>
           </Col>
         </Row>

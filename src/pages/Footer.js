@@ -26,7 +26,7 @@ export function Footer() {
           <Col>
             <h6><strong>Support</strong></h6>
             <ul className="list-unstyled pt-2 text-muted">
-              <CustomItem className="d-flex align-items-center my-2"><Link href="https://t.me/heycryptobob" target="_blank">Listing Contact</Link></CustomItem>
+              <CustomItem className="d-flex align-items-center my-2"><Link href="https://t.me/coinrocketsales" target="_blank">Listing Contact</Link></CustomItem>
               <CustomItem className="d-flex align-items-center">FAQ <BlueBadge variant="info" className="ml-2">Coming Soon</BlueBadge></CustomItem>
             </ul>
           </Col>

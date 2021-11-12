@@ -13,7 +13,7 @@ export function Header() {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <Nav.Link href="https://t.me/CoinRocketChannel" target="_blank" rel="noopener noreferrer"><Telegram size="24" className="text-dark" /></Nav.Link>
+          <Nav.Link href="https://t.me/coinrocketapp" target="_blank" rel="noopener noreferrer"><Telegram size="24" className="text-dark" /></Nav.Link>
           {/* <Nav.Link href="https://twitter.com/coinrocketapp" target="_blank" rel="noopener noreferrer" ><Twitter size="24" className="text-dark" /></Nav.Link> */}
         </Navbar.Collapse>
       </Container>

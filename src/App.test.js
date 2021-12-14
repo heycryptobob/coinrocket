@@ -7,6 +7,6 @@ const AppWrapper = () => {
   )
 }
 
-test('renders name and slogan', () => {
+test('renders', () => {
   render(<AppWrapper />);
 });

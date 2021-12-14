@@ -1,6 +1,6 @@
-import "./App.scss";
-import { Header } from "./Header";
-import { HomePage } from './pages/HomePage'
+import "./App.css";
+import { Header } from "./components/Header";
+import { Home } from './pages/Home';
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Route path="/"><HomePage /></Route>
+        <Route path="/"><Home /></Route>
       </Switch>
     </Router>
   );

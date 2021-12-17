@@ -1,0 +1,21 @@
+{
+  "common": {
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "pools": {
+      "groups": {
+        "active": "Ongoing",
+        "upcoming": "Upcoming",
+        "awaiting": "Awaiting Distribution",
+        "distributed": "Distributed"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "heading": "Fundraising Platform",
+      "description": "Coinrocket.app is the go-to platform for fundraising on the Binance Smart Chain. Through Coinrocket.app you can invest in the private sales and presales of the hottest project coming onto the market.",
+      "button": "Apply for early access"
+    }
+  }
+}

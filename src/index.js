@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./initializers";
 import { BSC, DAppProvider, Config } from "@usedapp/core";
+import "./i18n";
 
 const config: Config = {
   readOnlyChainId: BSC.chainId,

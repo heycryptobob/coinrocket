@@ -6,16 +6,21 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import { Suspense } from "react";
 
 function App() {
 
   return (
+    <Suspense fallback="loading">
     <Router>
       <Header />
       <Switch>
-        <Route path="/"><Home /></Route>
+        <Route path="/">
+            <Home />
+        </Route>
       </Switch>
     </Router>
+    </Suspense>
   );
 }
 

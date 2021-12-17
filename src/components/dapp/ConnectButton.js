@@ -13,7 +13,7 @@ function Account() {
 }
 
 function Button() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const { activateBrowserWallet, account, deactivate } = useEthers();
   const text = account ? t('common.disconnect') : t('common.connect');
   const baseKlass =

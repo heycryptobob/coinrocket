@@ -15,7 +15,7 @@ const groups = [
 ]
 
 function Hero() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
     <section className="bg-gradient-to-r from-blue-900 to-violet-700">
       <div className="container mx-auto px-6 py-24 flex flex-row text-white">
@@ -45,7 +45,7 @@ function Hero() {
 }
 
 function PoolGroup({ group }) {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const translationStr = `common.pools.groups.${group}`
 
   return (

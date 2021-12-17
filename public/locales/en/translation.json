@@ -1,7 +1,15 @@
 {
   "common": {
     "connect": "Connect",
-    "disconnect": "Disconnect"
+    "disconnect": "Disconnect",
+    "pools": {
+      "groups": {
+        "active": "Ongoing",
+        "upcoming": "Upcoming",
+        "awaiting": "Awaiting Distribution",
+        "distributed": "Distributed"
+      }
+    }
   },
   "home": {
     "hero": {

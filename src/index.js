@@ -3,11 +3,21 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import './initializers'
+import "./initializers";
+import { BSC, DAppProvider, Config } from "@usedapp/core";
+
+const config: Config = {
+  readOnlyChainId: BSC.chainId,
+  readOnlyUrls: {
+    [BSC.chainId]: 'https://bsc-dataseed.binance.org/'
+  }
+};
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DAppProvider config={config}>
+      <App />
+    </DAppProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

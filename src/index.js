@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
@@ -17,7 +17,9 @@ const config: Config = {
 ReactDOM.render(
   <React.StrictMode>
     <DAppProvider config={config}>
-      <App />
+      <Suspense fallback="loading">
+        <App />
+      </Suspense>
     </DAppProvider>
   </React.StrictMode>,
   document.getElementById("root")

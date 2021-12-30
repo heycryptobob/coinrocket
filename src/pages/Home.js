@@ -1,18 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { SocialIcon } from "react-social-icons";
+import { PoolWorkflow } from '../components/pools/PoolWorkflow';
 
 const socials = [
   { network: "telegram", url: "https://t.me" },
   { network: "twitter", url: "https://twitter.com" },
   { network: "instagram", url: "https://instagram.com" },
 ];
-
-const groups = [
-  "active",
-  "upcoming",
-  "awaiting",
-  "distributed",
-]
 
 function Hero() {
   const { t } = useTranslation();
@@ -34,7 +28,7 @@ function Hero() {
             ))}
           </div>
           <div className="mt-12">
-            <a href="/#" className="uppercase mt-8 font-semibold px-8 py-4 rounded-lg text-white bg-emerald-500 hover:bg-emerald-400 hover:cursor-pointer">
+            <a href="https://forms.gle/83SxAFEKT257quUc9" target="_blank" rel="noreferrer" className="uppercase mt-8 font-semibold px-8 py-4 rounded-lg text-white bg-emerald-500 hover:bg-emerald-400 hover:cursor-pointer">
               {t("home.hero.button")}
             </a>
           </div>
@@ -44,34 +38,11 @@ function Hero() {
   );
 }
 
-function PoolGroup({ group }) {
-  const { t } = useTranslation();
-  const translationStr = `common.pools.groups.${group}`
-
-  return (
-    <>
-      <h2 className="text-2xl font-semibold pb-8">{t(translationStr)}</h2>
-    </>
-  )
-}
-
-function Pools() {
-  return(
-    <section>
-      <div className="container mx-auto px-6">
-        <div className="py-24 grid gap-4 grid-cols-1 md:grid-cols-2 2xl:grid-cols-4">
-          {groups.map((group, key) => <PoolGroup key={key} group={group} />)}
-        </div>
-      </div>
-    </section>
-  )
-}
-
 export function Home() {
   return (
     <>
       <Hero />
-      <Pools />
+      <PoolWorkflow />
     </>
   );
 }

@@ -8,7 +8,16 @@
         "upcoming": "Upcoming",
         "awaiting": "Awaiting Distribution",
         "distributed": "Distributed"
-      }
+      },
+      "status": {
+        "start": "Sale starts in:",
+        "end": "Sale ends in:",
+        "distribution": "Distribution:",
+        "awaiting": "Awaiting",
+        "distributed": "Distributed"
+      },
+      "total_raise": "Total Raise:",
+      "more_details": "More details"
     }
   },
   "home": {
